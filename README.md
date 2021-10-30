@@ -43,5 +43,8 @@ docker container run --rm --name redis-commander -d -p 8081:8081 --network NetRe
 
 <img src=./img/ContainerRedisCommander.png>
 
+<h1> Painel do Redis-Commander rodando em container </h1>
+
+<img src=./img/PaineRedisCommander.png>
 
 
