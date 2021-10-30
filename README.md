@@ -28,14 +28,20 @@ Rodando Redis com Redis-commande usando container
 
 <h1> Container Redis </h1>
 
-    - Rodando Contaier
+    - Rodando Container
+
 docker container run --name redis -v base_redisDB:/base --network NetRedis -d redis
 
 <img src=./img/ContainerRedis.png>
 
 
 <h1> Container rdis-commander </h1>
+    
+    - Rodando Container redis-comander
+
 docker container run --rm --name redis-commander -d -p 8081:8081 --network NetRedis -e REDIS_HOSTS=local:redis:6379 rediscommander/redis-commander:latest
+
+<img src=./img/ContainerRedisCommander.png>
 
 
 
